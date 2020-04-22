@@ -18,6 +18,9 @@ public class MovieController {
 	@Resource
 	private MovieService movieService;
 	
+	public void test() {
+		
+	}
 	
 	@RequestMapping("selects")
 	public String selects(Model model, MovieVO movieVO,@RequestParam(defaultValue = "1" )Integer pageNum,
